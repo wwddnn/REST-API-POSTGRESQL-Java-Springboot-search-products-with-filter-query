@@ -1,13 +1,15 @@
 ## ⚙️Introduction:
-- This Project consists in create a API REST with Java-SpringBoot-Maven using layers (Repository, Service, Controller) for better division of responsability.
-- Use POSTGRESQL Database in this Project. Create a connection between database and Intellij within the application-test.properties file.  
+- This Project consists in create a API REST with Java-SpringBoot-Maven (POSTGRESQL DATABASE) using layers (Repository, Service, Controller) for better division of responsability.
+- I used POSTGRESQL Database in this Project. I created a connection between database and Intellij within the application-test.properties file.  
 
 ## ⚙️Focus: 
-- Search products in H2 Database. This searching is by Name of Product and return a paginated product query. I'm use Postman tools for better URL test request on backend.
+- This search is performed by product name and returns a paginated list of products.
+- You can use URL search parameters, such as: `size=2` to specify the number of items displayed per page (in this case, 2 items); `name=xiaomi` to display products containing "xiaomi" in the name attribute; and `page=0` to specify the page number, since the search results are paginated.
+- I used Postman to effectively test backend URL requests.
 
 ## ⚙️Tecnologies and Tools:
 - IntelliJ IDEA
-- POSTGRESQL
+- POSTGRESQL database
 - Java
 - Spring boot
 - H2 Database
@@ -22,9 +24,10 @@
 - Sping Web
 
 ## ⚙️Results:
-- Improve my knowledge about Java + Spring boot + Database + API REST is the project objective. I'm happy with this construction, and sign the good practice within code Backend Java.
+- I improved my knowledge about Java + Spring boot + Database + API REST is the project objective.
+- I'm happy with this little project, and also to sign the good practice within code Backend Java.
 - The result is great and code is correct, using layers and DTO for transfer data between Service/Repository and Controller.
-- Use Spring boot Annotations such as @Autowired, @Service, @Entity, @GetMapping is very important for better code and architecture of project.
+- I used Spring boot Annotations such as: @Autowired, @Service, @Entity and @GetMapping. It is very important for better code and architecture of project.
 - Postgresql Database is the most used by developers, therefore that is why i decided use also in this project.
 
 ## ⚙️Prints (INTELIJ IDEA and POSTGRESQL DATABASE):
